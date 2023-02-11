@@ -1,0 +1,190 @@
+table {
+    text-align: center;
+    width: 100%;
+  }
+  td 
+  {
+    padding: 5px;
+  }
+  
+  input#submit 
+  {
+    border-radius: 5px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    font-family: Georgia, Times, serif;
+    background-color: rgb(58, 4, 4);
+    color: white;
+  }
+    
+  input#submit:hover 
+  {
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+    font-weight: bold;
+  }
+    
+  input#submit:active
+  {
+    color: #0f38ec;
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+    background-color: #a0dbc4;
+    
+  }
+
+  /*----------------------------UPLOAD STARTS------------------------*/
+/*----------------------------note css STARTS------------------------*/
+.timetableContainer1
+{
+    padding-top: 10px;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+.UploadTimetable #h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+    
+}
+
+
+h1 #small {
+    display: block;
+    font-size: 70%;
+    padding-top: 5px;
+    color: gray;
+}
+
+.describeDiv
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*----------------------------note css ENDS--------------------------*/
+  
+
+.timetableContainer
+{
+    padding-top: 10px;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.UploadTimetable h1 {
+    font-size: 90%;
+    text-align: center;
+    /*margin: 20px 0 20px;*/
+    
+}
+
+
+h1 small {
+    display: block;
+    font-size: 62.5%;
+    padding-top: 5px;
+    color: gray;
+}
+
+
+.avatar-preview {
+    width: 100%;
+    /*height: 100%;*/
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-left: 50%;
+    border: thin solid rgb(58, 4, 4);
+    /*box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);*/
+}
+
+
+
+.avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.avatar-upload {
+   
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.avatar-edit {
+    text-align: left;
+}
+
+.avatar-edit #imageUpload{
+    font-family: Georgia, Times, serif;
+    width: 100%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 3px;
+}
+
+.avatar-upload .avatar-edit #imageUpload:hover {
+    color: #b40909;
+}
+
+
+
+td{
+    padding: 10px 20px 10px 10px;
+}
+
+input#viewtable,
+input#upload
+{
+    font-size: 70%;
+    width: 30%;
+    max-width: 70px;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    font-family: Georgia, Times, serif;
+    background-color: rgb(58, 4, 4);
+}
+
+#uploaddiv
+{
+    text-align: right
+}
+
+input#changetable:hover,
+#viewtable:hover,
+#upload:hover
+{
+  
+  font-weight: bold;
+}
+  
+input#changetable:active,
+#viewtable:active,
+#upload:active
+{
+ 
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: rgb(228, 98, 98);
+  font-weight: bold;
+  
+}
+
+#formId #describe
+{
+    width: 100%;
+    max-width: 400px;
+    height: 70%;
+    min-height: 70%;
+    max-height: 70%;
+}

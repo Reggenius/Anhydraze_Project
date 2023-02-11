@@ -1,0 +1,82 @@
+
+#describe
+{
+    width: 100%;
+}
+
+.img_table_div
+{
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: black;
+    padding: 1.5%;
+    width: 50%;
+    min-width: 330px;
+    max-width: 480px;
+    height: 70%;
+    min-height: 70%;
+    max-height: 70%;
+    color: white;
+}
+
+.timetableDel
+{
+  text-align: right;
+}
+
+.timetableDel #submit2
+{
+  font-size: 100%;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background-repeat: no-repeat;
+  background-position: 8px 9px;
+  /*display: block;*/
+  font-family: Georgia, Times, serif;
+  border-bottom: 2px silver;
+  width: 15%;
+  background-color: rgba(217, 218, 159, 0.925);
+  max-width: 150px;
+}
+
+input#submit 
+{
+    font-size: 100%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    font-family: Georgia, Times, serif;
+    border-bottom: 2px silver;
+    width: 25%;
+    background-color: rgba(217, 218, 159, 0.925);
+    margin-left: 75%;
+  
+}
+  
+  
+input#submit:hover,
+.timetableDel #submit2:hover
+{
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  font-weight: bold;
+}
+  
+input#submit:active,
+.timetableDel #submit2:active
+{
+  color: #0f38ec;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  font-weight: bold;
+  
+}
+
